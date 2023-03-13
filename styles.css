@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    margin: 0px auto;
+    text-align: center;
+    width: 80%;
+}
+p{
+    margin: 0px auto;
+    text-align: center;
+    line-height: 1.2;
+    width: 70%; 
+    padding-bottom: 20px;
+}
+body{
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+ 
+}
+.container{
+    background: hsl(0, 0%, 100%);
+    max-width: 375px;
+    height: 550px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+.image-container{
+    display: flex;
+    width: 90%;
+    height: 85%;
+    justify-self: center;
+    margin-top: 20px;  
+}
+.image-container > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
